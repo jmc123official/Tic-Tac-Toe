@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="icon" href="tic.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="player-inputs">
+            <input type="text" id="player1-name" placeholder="Player 1 Name (X)">
+            <input type="text" id="player2-name" placeholder="Player 2 Name (O)">
+            <button id="start-button">Start Game</button>
+        </div>
+        <div class="winner-container">
+            <p id="winner-message" class="winner-message"></p>
+            <p id="countdown-message" class="countdown-message"></p> <!-- Countdown message -->
+        </div>
+        <div class="game-board-container">
+            <div class="game-info">
+                <p id="game-status">Current Player: <span id="current-player">X</span></p>
+                <button id="reset-button">Reset Game</button>
+            </div>
+            <div class="game-board">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+        </div>
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/_johncherian_" target="_blank" class="social-button">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/jmc123official" target="_blank" class="social-button">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
