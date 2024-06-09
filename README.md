@@ -2,6 +2,8 @@
 
 This is a simple two-player Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. It allows two players to take turns and determine the winner. The game is responsive and works on both desktop and mobile devices.
 
+[**LIVE PREVIEW**](https://jmc123official.github.io/Tic-Tac-Toe/).
+
 ## Project Structure
 
 The project consists of the following files:
